@@ -1,0 +1,10 @@
+<?php
+
+function startCaesarDecipher($caesarSet, $text_to_decipher){
+
+	$caesarOutput = "Caesar - " .$caesarSet. " - " .$text_to_decipher. " Yay";
+
+	return $caesarOutput;
+}
+
+?>

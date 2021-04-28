@@ -1,0 +1,189 @@
+body { 
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font: 14px;
+	margin:0;
+	padding:0;
+	background-image: url("./bg2.png"), url("./bg1.png");
+	background-size: cover, auto;
+	background-color:#1d417d;
+	}
+
+.login-container {
+	width: 725px;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.login-img {
+	position: relative;
+	bottom: 60px;
+	}
+.login-title1 {
+	font-size: 30pt; 
+	color: white; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	text-shadow: 1px 1px 1px black;
+	position: relative;
+	bottom: 10px;
+	letter-spacing: 3px;
+	}
+.login-title2 {
+	font-size: 16pt; 
+	color: white; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	text-shadow: 1px 1px 1px black;
+	position: relative;
+	bottom: 10px;
+	letter-spacing: 3px;
+	}
+.login-title3 {
+	font-size: 12pt; 
+	color: white; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	text-shadow: 1px 1px 1px black;
+	position: relative;
+	bottom: 90px;
+	letter-spacing: 4px;
+	}
+.login-wrapper1 {
+	width: 310px;
+	float: left;
+	margin-right: 30px;
+	}
+.login-wrapper2 {
+	width: 355px;
+	padding: 20px;
+	background-color: #FFF;
+	float: left;
+	border-radius: 12px;
+	}
+.logo-wrapper {
+	width: 755px;
+	display: block;
+	position: relative;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.menu-wrapper1 {
+	width: 860px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.menu-wrapper2 {
+	width: 660px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.body-wrapper {
+	width: 85%;
+	max-width: 1100px;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 12px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.body-bottom-margin {
+	margin-bottom: 25px;
+	}
+.change-password-wrapper {
+	width: 450px;
+	padding: 20px;
+	}
+.create-user-wrapper {
+	width: 475px;
+	padding: 20px;
+	}
+.users-table {
+	width: 100%;
+	}
+.users-table-header {
+	background-color:#1d417d;
+	color:#FFF;
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font: 14px;
+	}
+.users-table-header th {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:2px;
+	padding-right:15px;
+	}
+.users-table tbody > tr > td {
+	padding:2px;
+	}
+.users-table-entry:hover {
+	background-color:lightgrey;
+	}
+.btn-half-line-height {
+	line-height: 0.5;
+	}
+.lesson-word-icon:before {
+    content: "";
+    display: block;
+    background: url("./msword-icon.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 0 6px 0 0;
+	}
+.lesson-word-icon {
+	line-height: 24px;
+	}
+nav.about-team {
+  float: left;
+  width: 240px;
+  padding: 20px;
+}
+
+nav.about-team img {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 12px;
+}
+
+article.about-team {
+  float: left;
+  padding: 20px;
+  width: 75%;
+}
+section.about-team::after {
+  content: "";
+  display: table;
+  clear: both;
+}	
+.job-summary-button {
+	background-color: #FFFFFF;
+    border-radius: 2px;
+    color: #1d417d;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+	padding: 2px 0 2px 0;
+	margin: 2px 0 2px 0;
+	}
+.job-summary-button:hover {
+    border: none;
+	color: #FFFFFF;
+    background: #1d417d;
+    box-shadow: 0px 0px 1px #777;
+	padding: 2px 0 2px 0;
+	margin: 2px 0 2px 0;
+	cursor: pointer;
+}
+.job-summary-original-image {
+	display: block;
+	max-width: 330px;
+	max-height:140px;
+	width: auto;
+	height: auto;
+	border: 0;
+}

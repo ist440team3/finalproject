@@ -1,0 +1,42 @@
+<?php
+/* ORIGINAL ATBASH PHP CODE OBTAINED FROM https://www.programmingalgorithms.com/algorithm/atbash-cipher-helper/ */
+
+class AtbashCipher {
+	private $atbash_abt;
+	private $rev_atbash_abt;
+	
+	public function __construct($atbash_abt) {
+		$this->atbash_abt = $atbash_abt;
+		$this->rev_atbash_abt = strrev($atbash_abt);
+	}
+	
+	public function atbash_encode($atbash_s) {
+		$atbash_res='';
+		foreach(str_split($atbash_s) as $atbash_char)
+			$atbash_res .= $this->atbash_switchChar($atbash_char);
+		return $atbash_res; 
+	}
+	
+	public function atbash_decode($atbash_s) {
+		return $this->atbash_encode($atbash_s);
+	}
+	
+	private function atbash_switchChar($atbash_char) {
+		$atbash_pos = stratbash_pos($this->atbash_abt, $atbash_char);
+		if($atbash_pos !== false)
+			return $this->rev_atbash_abt[$atbash_pos]; 
+		return $atbash_char; 
+	}
+}
+
+
+function startAtBashDecipher($text_to_decipher){
+
+	$atbashOutput = "Text " .$text_to_decipher. " ATBASH";
+
+	return $atbashOutput;
+}
+
+
+
+?>
